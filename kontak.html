@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempat Pariwisata</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ 
+   <nav class="navbar bg-body-tertiary fixed-top">
+
+    <div class="container-fluid">
+
+  <img src="flag.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="#">West Asia Tourist | Explore Turki</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="tempat pariwisata.html">Beranda</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="kegiatan.html">Kegiatan</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="galerii.html">Galeri</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="kontak.html">Kontak</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="tentangkami.html">Tentang Kami</a>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <br> <br> <br> <br>
+  <figure class="text-center">
+    <blockquote class="blockquote">
+          <h1><strong>Kontak Kami</strong></h1>
+    </blockquote>
+      </figure>
+      <hr>
+      <ul>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Formulir Pendaftaran</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="nama">
+                    </div>
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3">
+                        <label for="alamat" class="form-label">Alamat</label>
+                        <textarea class="form-control" id="alamat" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="noTelepon" class="form-label">No Telepon</label>
+                        <input type="tel" class="form-control" id="noTelepon">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Jenis Kelamin</label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="jenisKelamin" id="laki-laki" value="Laki-laki">
+                            <label class="form-check-label" for="laki-laki">Laki-laki</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="jenisKelamin" id="perempuan" value="Perempuan">
+                            <label class="form-check-label" for="perempuan">Perempuan</label>
+                        </div>
+                    </div>
+<div class="mb-3">
+    <label for="jenisKegiatan" class="form-label">Jenis Kegiatan</label>
+    <select class="form-select" id="jenisKegiatan">
+        <option selected>Pilih Kegiatan</option>
+        <option value="melihat pemandangan">Melihat pemandangan</option>
+        <option value="menginao">Menginap</option>
+        <option value="menjelajah">Menjelajah</option>
+        <option value="wisata">Wisata</option>
+        <option value="kuliner">Kuliner</option>
+    </select>
+</div>
+                    <div class="mb-3">
+                        <label class="form-label">Destinasi yang Ingin Dikunjungi</label><br>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Cappadocia" id="Cappadocia">
+                            <label class="form-check-label" for="Cappadocia">Cappadocia</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="pamukkale" id="pamukkale">
+                            <label class="form-check-label" for="pamukkale">Pamukkale</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="marmaris" id="marmaris">
+                            <label class="form-check-label" for="
+                            marmaris">Marmaris</label>
+                        </div>
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="tulipsgarden" id="tulipsgarden">
+                            <label class="form-check-label" for="
+                            tulipsgarden">Emirgan Tulips Garden</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim</button>
+                </form>
+            </div>
+            <br>
+            <div class="col-md-6">
+                <h4>Masukkan Saran & Kritik</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="namaSaran" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="namaSaran">
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailSaran" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="emailSaran">
+                    </div>
+                    <div class="mb-3">
+                        <label for="saranKritik" class="form-label">Saran dan Kritik</label>
+                        <textarea class="form-control" id="saranKritik" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim</button>
+                </form>
+            </div>
+        </div>
+        <div class="mt-5">
+            <h4>Lokasi Kantor Kami</h4>
+            <!-- Google Map iframe -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d421559.7016785058!2d26.071065786032782!3d39.03359066984663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c5f8929d434059%3A0x74e7c6bb91ec6447!2sTurkey!5e0!3m2!1sen!2sus!4v1693580799714!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</ul>
+
+   <footer class="bg-light text-center text-black">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <section class="mb-4">
+            <section class="mb-4">
+               <p>Ayo jelajahi tempat tempat menarik di Turki!!
+                <br>Rencanakan liburanmu bersama keluarga dan temanmu</p>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Copyright:
+            <a class="text-dark" href="https://example.com/">TempatPariwisata</a>
+        </div>
+    </footer>
+    
+</body>
+</html>
